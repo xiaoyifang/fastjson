@@ -23,7 +23,7 @@
 
 	<properties>
 		<junit.version>4.11</junit.version>
-		<gpg.skip>false</gpg.skip>
+		<gpg.skip>true</gpg.skip>
 		<javadoc.skip>false</javadoc.skip>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.5</jdk.version>
@@ -195,7 +195,8 @@
 			<groupId>com.aliyun.odps</groupId>
 			<artifactId>odps-sdk-udf</artifactId>
 			<version>0.13.0</version>
-			<scope>provided</scope>
+			<scope>system</scope>
+			<systemPath>C:/Users/eason.xiao/Desktop/odps-sdk-java/odps-sdk-udf/odps-sdk-udf-0.16.4.jar</systemPath>
 			<optional>true</optional>
 		</dependency>
 
